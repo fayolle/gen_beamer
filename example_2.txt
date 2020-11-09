@@ -1,0 +1,60 @@
+title: This is the title
+author: P.-A. F.
+date: \today
+
+=== First section ===
+
+--- First Frame ---
+
+Bullets start with * and are based on alignment
+* Bullet 1
+* Bullet 2
+  * Second level of bullets
+
+Enumerations with with \# and dotted numbers
+# Enum 1
+# Enum 2
+  # Second level of enum (numeric)
+  # Even more enum
+(some text in the item)
+
+Some text after the bullets
+
+--- Simple text stuff ---
+
+Urls like http://www.google.com get recognized.
+
+Some text __in italic with some numbers 1 2 3 in it__
+
+--- Maths ---
+
+Simple inline math: $a+b+c$
+
+--- Verbatim ---
+
+\begin{verbatim}
+int main(void) {
+    return 0;
+}
+\end{verbatim}
+
+
+--- Math mode ---
+
+$$
+a = b + c
+$$
+
+--- Pictures ---
+
+
+=== Second section ===
+
+--- TODO ---
+
+# lots of things
+# to do 
+
+=== Third section ===
+
+=== Fourth section ===
